@@ -1,0 +1,52 @@
+body {
+    font-family:'Roboto';
+    font-weight: 500 ;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0;
+    overflow: hidden;
+    margin-top: 20px; /* This was from .semester */
+    text-align: center;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+table {
+    width: 100% ;
+    margin: 0;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #554c4c;
+    padding: 7px;
+    text-align: left;
+}
+
+th {
+    background-color: #959596;
+    color: #ffffff;
+}
+
+tr:hover {
+    background-color: #b1b0b0;
+}
+
+.year-semester {
+    text-align: center;
+    margin: 0;
+    background-color: skyblue;
+    padding: 7px;
+}
